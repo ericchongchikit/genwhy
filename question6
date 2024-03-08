@@ -1,0 +1,17 @@
+SELECT c.*, r.amount
+FROM CUSTOMERS c, receipt r 
+where c.cust_id = r.customer_id
+and amount > "1000"
+and issue_date >= date_trunc('month',now()::date) - interval '1' month
+and issue_date <= date_trunc('month',now()::date) - interval '1 day'
+
+
+
+
+
+
+CUSTOMER			Receipt
+cust_ID			    receipt_id
+cust_Name			amount
+    			    customer_id
+                    receipt_issue_date

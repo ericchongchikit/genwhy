@@ -1,0 +1,10 @@
+Situtation creating one of the most important function for one of the client system call Redistribution. 
+It is one of the function where the warehouse need to use this function to run the whole operation. 
+If the functions fail means the whole opereation will need to be onhold.
+
+First of all, I would need to fully understand the problem before going into it. What are the changes need to be made, what are the concerns I need to know.
+Then I would structute from top to bottom what I have understand by drawing UML diagram. Drawing the UML diagram opens up more ideas that can enhance the efficiency of the function itself since there is a diagram to view at.
+Next, I would planned what are the tools that need to be used. For this case, I mostly used sql hence I would need to ennhance my sql language.
+Then I will start writing creating the function by following the UML diagram algorithm.
+Test will be run every checkpoint that is done.
+To ensure the efficiency of my solution, I would perform some kind of testing with the team and the client to ensure any validation or stiuation that I have missed out.
